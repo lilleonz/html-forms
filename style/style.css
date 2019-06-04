@@ -8,9 +8,9 @@ body {
 }
 .navbar {
     width: 100%;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
+    -webkit-box-pack: flex-end;
+        -ms-flex-pack: flex-end;
+            justify-content: flex-end;
     height: 60px;
     margin: 0.75%;
     display: -webkit-box;
