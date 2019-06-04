@@ -97,12 +97,81 @@ body {
     border: 1px solid #c7c7c7;
     width: 30%;
     margin: 1% 35%;
-    height: 100px;
+    padding: 5%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
 }
 
+.sign-up-header-container {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sign-up-title {
+    color: #4c4c4c;
+    line-height: 1.1;
+    font-size: 24px;
+}
+
+.sign-up-sub-text {
+    color: #4c4c4c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+    padding: 20px;
+    display: block;
+}
+
+.info-small-link {
+    color: #0077C5;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.info-small-link > sign-in {
+    margin: 0;
+}
+
+#form-sign-up {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#label-email {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.text-input-container {
+    color: #000;
+    outline: 0;
+    height: 40px;
+    min-width: 160px;
+    position: relative;
+}
+
+.label-phone {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+#label-phone {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 14px;
+    line-height: 25px;
+}
 .footer-container {
     width: 90%;
     margin: 2% 5%;  

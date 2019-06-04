@@ -13,7 +13,7 @@
             <span class="already-acc">Already have an Intuit account?</span>
             <a href="#" class="pass">I forgot my user ID or password</a>
         </div>
-        <button class="btn-submit"><i class="fas fa-lock"></i>Sign In</button>
+        <button class="btn-submit" type="submit"><i class="fas fa-lock"></i>Sign In</button>
     </div>
     <div class="logo-container">
         <img alt="Intuit logo" src="./style/resources/logo.png">
@@ -28,7 +28,43 @@
             <a href="#" class="sec-descr">turbotax</a>
         </div>
         <div class="form-container">
-            <form></form>
+            <div class="sign-up-header-container">
+                <span class="sign-up-title">Create an Intuit account</span>
+                <span class="sign-up-sub-title">
+                    <div class="sign-up-sub-text">
+                        One account for everything Intuit, including Mint. <br>
+                        <a href="#" class="info-small-link">Learn more</a>
+                    </div>
+                    <span class="sign-up-sub-text">Already have an account?</span>
+                    <a href="#" class="info-small-link" id="sign-in">Sign In</a>
+                </span>
+            </div>
+        <form id="form-sign-up">
+            <label for="email" id="label-email">Email Address</label>
+            <div class="text-input-container">
+                <input type="email" class="text-input" required="required" placeholder="Email Adress" maxlength="100">
+            </div>
+            <label for="phone" id="label-phone">Phone Number (recommended)</label>
+            <div class="text-input-container">
+                <input type="phone" class="text-input" required="required" placeholder="Phone recommended" maxlength="100">
+            </div>
+            <label for="password" id="label-password">Password</label>
+            <div class="text-input-container">
+                <input type="password" class="text-input" required="required" placeholder="Password" maxlength="100">
+            </div>
+            <button class="btn-submit" type="submit"><i class="fas fa-lock"></i>Create Account</button>
+            <div class="sign-up-footer-container">
+                <span class="sign-up-title">By clicking Create Account, you agree to our<br>
+                <span class="sign-up-sub-title">
+                    <div class="sign-up-sub-text">
+                        One account for everything Intuit, including Mint.<br>
+                        <a id="terms-service" href="#">Terms of Service</a>
+                        <span id="sign-up-consent">and have read and acknowledge our</span>
+                        <a href="#" class="info-small-link">Privacy Statement</a>
+                    </div>
+                </span>    
+            </div>
+        </form>
         </div>
     </div>
     <div class="footer-container">
