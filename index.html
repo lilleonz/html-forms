@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset='utf-8'>
     <title>Microverse Mock Mint</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -18,7 +18,7 @@
     <div class="logo-container">
         <img alt="Intuit logo" src="./style/resources/logo.png">
     </div>
-    <div clas="main-container">
+    <div class="main-container">
         <div class="icons-container">
             <img alt="mint logo" class="sec-logo" src="./style/resources/mint-logo.png">
             <a href="#" class="sec-descr">mint</a>
@@ -30,41 +30,46 @@
         <div class="form-container">
             <div class="sign-up-header-container">
                 <span class="sign-up-title">Create an Intuit account</span>
-                <span class="sign-up-sub-title">
-                    <div class="sign-up-sub-text">
-                        One account for everything Intuit, including Mint. <br>
+                <div class="sub-title-container">
+                   <span class="sign-up-sub-text">
+                        One account for everything Intuit, including Mint. 
+                        <br>
                         <a href="#" class="info-small-link">Learn more</a>
+                    </span> 
+                </div>
+            </div>
+            <form id="form-sign-up">
+                <fieldset class="input-field">
+                    <label for="email" class="input-label" >Email Address</label>
+                    <div class="text-input-container">
+                        <input type="email" id="email" class="text-input" required="required" placeholder="Email Adress" maxlength="100">
+                    </div> 
+                </fieldset>
+                <fieldset class="input-field">
+                    <label for="tel" class="input-label">Phone Number (recommended)</label>
+                    <div class="text-input-container">
+                        <input type="tel" id="tel" class="text-input" required="required" placeholder="Phone recommended" maxlength="100">
                     </div>
-                    <span class="sign-up-sub-text">Already have an account?</span>
-                    <a href="#" class="info-small-link" id="sign-in">Sign In</a>
-                </span>
-            </div>
-        <form id="form-sign-up">
-            <label for="email" id="label-email">Email Address</label>
-            <div class="text-input-container">
-                <input type="email" class="text-input" required="required" placeholder="Email Adress" maxlength="100">
-            </div>
-            <label for="phone" id="label-phone">Phone Number (recommended)</label>
-            <div class="text-input-container">
-                <input type="phone" class="text-input" required="required" placeholder="Phone recommended" maxlength="100">
-            </div>
-            <label for="password" id="label-password">Password</label>
-            <div class="text-input-container">
-                <input type="password" class="text-input" required="required" placeholder="Password" maxlength="100">
-            </div>
-            <button class="btn-submit" type="submit"><i class="fas fa-lock"></i>Create Account</button>
-            <div class="sign-up-footer-container">
-                <span class="sign-up-title">By clicking Create Account, you agree to our<br>
-                <span class="sign-up-sub-title">
-                    <div class="sign-up-sub-text">
-                        One account for everything Intuit, including Mint.<br>
-                        <a id="terms-service" href="#">Terms of Service</a>
-                        <span id="sign-up-consent">and have read and acknowledge our</span>
+                </fieldset>
+                <fieldset class="input-field">
+                    <label for="password" class="input-label" >Password</label>
+                    <div class="text-input-container">
+                        <input type="password" id="password" class="text-input" required="required" placeholder="Password" maxlength="100">
+                    </div>
+                </fieldset>
+                <button class="btn-submit" id="sign-btn" type="submit"><i class="fas fa-lock"></i>Create Account</button>
+                <div class="sign-up-footer-container">
+                    <span class="sign-up-footer">By clicking Create Account, you agree to our
+                        <br>
+                        <a class="info-small-link" href="#">Terms of Service</a>
+                        and have read and acknowledge our
                         <a href="#" class="info-small-link">Privacy Statement</a>
-                    </div>
-                </span>    
+                    </span>    
+                </div>
+            </form>
+            <div class="captcha-footer">
+                <span class="captcha-footer-text">Invisible reCAPTCHA by Google <a href="#" class="captcha-link">Privacy Policy</a> and <a href="#" class="captcha-link">Terms of Use</a>.</span>
             </div>
-        </form>
         </div>
     </div>
     <div class="footer-container">
