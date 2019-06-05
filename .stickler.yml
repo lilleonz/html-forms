@@ -1,7 +1,5 @@
 linters:
   stylelint:
     fixer: true
-<<<<<<< HEAD
-    
-=======
->>>>>>> development
+  csslint:
+    ignore: 'order-alphabetical'
