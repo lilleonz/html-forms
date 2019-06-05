@@ -147,17 +147,15 @@ a:hover {
     margin: 0;
 }
 
-#form-sign-up {
+.form-sign-up {
     display: block;
     font-size: 14px;
     font-weight: 400;
 }
 
 .input-label {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    outline: 0;
     font-size: 14px;
     line-height: 25px;
     color: rgb(64, 64, 64);
