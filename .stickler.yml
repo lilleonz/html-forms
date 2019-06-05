@@ -1,5 +1,3 @@
 linters:
   stylelint:
     fixer: true
-  csslint:
-    fixer: true
