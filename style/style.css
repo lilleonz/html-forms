@@ -6,15 +6,15 @@ body {
 }
 
 .navbar {
-    width: 100%;
-    justify-content: end;
     height: 60px;
-    margin: 0.75%;
+    justify-content: end;
     display: flex;
-    top: 10px;
-    right: 20px;
     float: right;
     font-size: 0.75rem;
+    margin: 0.75%;
+    right: 20px;
+    top: 10px;
+    width: 100%;
 }
 
 .nav-container {
