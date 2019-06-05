@@ -7,7 +7,7 @@ body {
 
 .navbar {
     height: 60px;
-    justify-content: end;
+    justify-content: flex-end;
     display: flex;
     float: right;
     font-size: 0.75rem;
