@@ -1,7 +1,4 @@
 linters:
   stylelint:
     fixer: true
-<<<<<<< HEAD
     
-=======
->>>>>>> development
