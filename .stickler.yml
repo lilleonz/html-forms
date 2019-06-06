@@ -1,4 +1,9 @@
 linters:
   stylelint:
     fixer: true
+<<<<<<< HEAD
     
+=======
+  csslint:
+    ignore: 'order-alphabetical,box-model'
+>>>>>>> development
