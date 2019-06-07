@@ -6,7 +6,7 @@ This is the second project of the Main HTML/CSS curriculum at [Microverse](https
 
 #### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms)
 
-#### [View in broswer](https://raw.githack.com/lilleonz/html-forms/development/index.html)
+#### [View in broswer](https://rawcdn.githack.com/lilleonz/html-forms/40bea666c98c84343c28ef91692fa190663812fe/index.html)
 
 #### Live ScreenShot of the page
 ![ScreenShot 1](style/resources/intuitmock.png)
