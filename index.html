@@ -1,13 +1,94 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset='utf-8'>
     <title>Microverse Mock Mint</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./style/style.css'>
-    <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/d3a036121e.js"></script>
 </head>
 <body>
-    
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="already-acc">Already have an Intuit account?</span>
+            <a href="#" class="pass">I forgot my user ID or password</a>
+        </div>
+        <button class="btn-submit" type="submit"><i class="fas fa-lock"></i>Sign In</button>
+    </nav>
+    <div class="logo-container">
+        <img alt="Intuit logo" src="./style/resources/logo.png">
+    </div>
+    <main>
+        <div class="main-container">
+            <div class="icons-container">
+                <img alt="mint logo" class="sec-logo" src="./style/resources/mint-logo.png">
+                <a href="#" class="sec-descr">mint</a>
+                <img alt="quickbooks logo" class="sec-logo" src="./style/resources/quickbooks-logo.png">
+                <a href="#" class="sec-descr">quickbooks</a>
+                <img alt="turbotax logo" class="sec-logo" src="./style/resources/turbotax-logo.png">
+                <a href="#" class="sec-descr">turbotax</a>
+            </div>
+            <div class="form-container">
+                <div class="sign-up-header-container">
+                    <span class="sign-up-title">Create an Intuit account</span>
+                    <div class="sub-title-container">
+                       <span class="sign-up-sub-text">
+                            One account for everything Intuit, including Mint. 
+                            <br>
+                            <a href="#" class="info-small-link">Learn more</a>
+                        </span> 
+                    </div>
+                </div>
+                <form class="form-sign-up">
+                    <fieldset>
+                        <label for="email" class="input-label" >Email Address</label>
+                        <div class="text-input-container">
+                            <input type="email" id="email" class="text-input" required="required" placeholder="Email Address" maxlength="100">
+                        </div> 
+                    </fieldset>
+                    <fieldset>
+                        <label for="tel" class="input-label">Phone Number (recommended)</label>
+                        <div class="text-input-container">
+                            <input type="tel" id="tel" class="text-input" required="required" placeholder="Phone recommended" maxlength="100">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <label for="password" class="input-label" >Password</label>
+                        <div class="text-input-container">
+                            <input type="password" id="password" class="text-input" required="required" placeholder="Password" maxlength="100">
+                        </div>
+                    </fieldset>
+                    <button class="btn-submit-sign-up" id="sign-btn" type="submit"><i class="fas fa-lock"></i>Create Account</button>
+                </form>
+                <div class="sign-up-footer-container">
+                        <span class="sign-up-footer">By clicking Create Account, you agree to our
+                            <br>
+                            <a class="info-small-link" href="#">Terms of Service</a>
+                            and have read and acknowledge our
+                            <a href="#" class="info-small-link">Privacy Statement</a>
+                        </span>    
+                </div>
+                <div class="captcha-footer">
+                    <span class="captcha-footer-text">Invisible reCAPTCHA by Google <a href="#" class="captcha-link">Privacy Policy</a> and <a href="#" class="captcha-link">Terms of Use</a>.</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-container">
+        <div class="footer-links-container">
+            <ul class="footer-list">
+                <li><a class="footer-link" href="#">Legal</a></li>
+                <li><a class="footer-link" href="#">Privacy</a></li>
+                <li><a class="footer-link" href="#">Security</a></li>
+            </ul>
+        </div>
+        <div class="footer-info-container">
+            <span class="footer-info">
+            © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            <br>
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.        
+            </span>
+        </div>
+    </footer>
 </body>
 </html>
